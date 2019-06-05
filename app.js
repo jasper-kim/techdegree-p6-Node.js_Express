@@ -27,6 +27,22 @@ app.get('/project/:id', (req, res) => {
     });
 });
 
+app.use((req, res, next) => {
+    const err = new Error("Not Found: It might not the page you are looking for...");
+    err.status = 404;
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.status(err.status);
+    console.error(err);
+    res.send(`
+        <h1>${err.message}</h1>
+        <h2>${err.status}</h2>
+        <pre>${err.stack}</pre>
+    `);
+});
+
 app.listen(3000, () => {
     console.log('The application s running on localhost: 3000!');
 });
