@@ -1,0 +1,23 @@
+{
+  "name": "techdegree-p6-node.js_express",
+  "version": "0.0.1",
+  "description": "A static porfolio site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windchair/techdegree-p6-Node.js_Express.git"
+  },
+  "author": "Jasper Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/windchair/techdegree-p6-Node.js_Express/issues"
+  },
+  "homepage": "https://github.com/windchair/techdegree-p6-Node.js_Express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.3"
+  }
+}

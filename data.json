@@ -1,0 +1,73 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "This app shows a random quote by using basic Javascript skills such as array, variables, loops, conditionals and object literals.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jasper-kim.github.io/techdegree-p1-randomQuoteGenerator/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p1-randomQuoteGenerator",
+            "image_urls": [
+                "../images/project1-main",
+                "../images/project1-1",
+                "../images/project1-2",
+                "../images/project1-3"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "In this project, I wrote Javascript to display 10 names at a time, and add a navigation and search system. It works with  a list of any number of students",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://jasper-kim.github.io/techdegree-p2-listPaginationAndFiltering/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p2-listPaginationAndFiltering",
+            "image_urls": [
+                "../images/project2-main",
+                "../images/project2-1",
+                "../images/project2-2",
+                "../images/project2-3"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This project is an interative registration form, which has customized and conditional behavior and interactivity. Instead of plain \"vanilla\" JavaScript, I used the popular jQuery library to complete this project.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"],
+            "live_link": "https://jasper-kim.github.io/techdegree-p3-interactiveForm/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p3-interactiveForm",
+            "image_urls": [
+                "../images/project3-main",
+                "../images/project3-1",
+                "../images/project3-2"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter Game",
+            "description": "In this project, I created a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by not only clicking letters on an onscreen keyboard, also pressing a acutual keyboard.",
+            "technologies": ["HTML", "CSS", "JavaScript", "OOP"],
+            "live_link": "https://jasper-kim.github.io/techdegree-p4-OOPGame/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p4-OOPGame",
+            "image_urls": [
+                "../images/project4-main",
+                "../images/project4-1",
+                "../images/project4-2",
+                "../images/project4-3"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Smart Contact Directory",
+            "description": "In this project, I wrote an app to share contact information for a fiction startup company. The app requests a JSON object from a public API by using \"Synchronous\" fetch with async/await. Then, it parses the data so that 12 employees are listed in a grid. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JSON", "public API"],
+            "live_link": "https://jasper-kim.github.io/techdegree-p5-publicApiRequest/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p5-publicApiRequest",
+            "image_urls": [
+                "../images/project5-main",
+                "../images/project5-1",
+                "../images/project5-2",
+                "../images/project5-3"
+            ]
+        }
+    ]
+}
