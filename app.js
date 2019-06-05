@@ -1,13 +1,20 @@
+//Constant variables to load modules
 const express = require('express');
 const data = require('./data.json');
+
+//Constant variable to set an array of objects in JSON
 const projects = data.projects;
 
+//Creates an Express application
 const app = express();
 
+//Serve static files
 app.use('/static', express.static('public'));
 
+//Set Pug to template engine
 app.set('view engine', 'pug');
 
+//Set routes
 app.get('/', (req, res) => {
     res.render('index', { projects });
 });
@@ -27,12 +34,14 @@ app.get('/project/:id', (req, res) => {
     });
 });
 
+//Set Error object
 app.use((req, res, next) => {
     const err = new Error("Not Found: It might not the page you are looking for...");
     err.status = 404;
     next(err);
 });
 
+//Set error error handling middleware
 app.use((err, req, res, next) => {
     res.status(err.status);
     console.error(err);
@@ -43,6 +52,7 @@ app.use((err, req, res, next) => {
     `);
 });
 
+//Set server to localhost:3000
 app.listen(3000, () => {
     console.log('The application s running on localhost: 3000!');
 });
