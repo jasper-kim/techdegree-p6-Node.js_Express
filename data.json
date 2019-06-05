@@ -69,6 +69,20 @@
                 "../static/images/project5-2.png",
                 "../static/images/project5-3.png"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "Clinic Website",
+            "description": "This is my first freelancing work from an accupuncture clicnic in my local area. I re-built the existing website with a responsive design for all plaforms.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+            "live_link": "https://healing.netlify.com/",
+            "github_link": "https://github.com/jasper-kim/Healing-Acupuncture",
+            "image_urls": [
+                "../static/images/project6-main.png",
+                "../static/images/project6-1.png",
+                "../static/images/project6-2.png",
+                "../static/images/project6-3.png"
+            ]
         }
     ]
 }
