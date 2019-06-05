@@ -8,10 +8,10 @@
             "live_link": "https://jasper-kim.github.io/techdegree-p1-randomQuoteGenerator/",
             "github_link": "https://github.com/jasper-kim/techdegree-p1-randomQuoteGenerator",
             "image_urls": [
-                "../images/project1-main",
-                "../images/project1-1",
-                "../images/project1-2",
-                "../images/project1-3"
+                "../static/images/project1-main.png",
+                "../static/images/project1-1.png",
+                "../static/images/project1-2.png",
+                "../static/images/project1-3.png"
             ]
         },
         {
@@ -22,10 +22,10 @@
             "live_link": "https://jasper-kim.github.io/techdegree-p2-listPaginationAndFiltering/",
             "github_link": "https://github.com/jasper-kim/techdegree-p2-listPaginationAndFiltering",
             "image_urls": [
-                "../images/project2-main",
-                "../images/project2-1",
-                "../images/project2-2",
-                "../images/project2-3"
+                "../static/images/project2-main.png",
+                "../static/images/project2-1.png",
+                "../static/images/project2-2.png",
+                "../static/images/project2-3.png"
             ]
         },
         {
@@ -36,9 +36,10 @@
             "live_link": "https://jasper-kim.github.io/techdegree-p3-interactiveForm/",
             "github_link": "https://github.com/jasper-kim/techdegree-p3-interactiveForm",
             "image_urls": [
-                "../images/project3-main",
-                "../images/project3-1",
-                "../images/project3-2"
+                "../static/images/project3-main.png",
+                "../static/images/project3-1.png",
+                "../static/images/project3-2.png",
+                "../static/images/project3-3.png"
             ]
         },
         {
@@ -49,10 +50,10 @@
             "live_link": "https://jasper-kim.github.io/techdegree-p4-OOPGame/",
             "github_link": "https://github.com/jasper-kim/techdegree-p4-OOPGame",
             "image_urls": [
-                "../images/project4-main",
-                "../images/project4-1",
-                "../images/project4-2",
-                "../images/project4-3"
+                "../static/images/project4-main.png",
+                "../static/images/project4-1.png",
+                "../static/images/project4-2.png",
+                "../static/images/project4-3.png"
             ]
         },
         {
@@ -63,10 +64,10 @@
             "live_link": "https://jasper-kim.github.io/techdegree-p5-publicApiRequest/",
             "github_link": "https://github.com/jasper-kim/techdegree-p5-publicApiRequest",
             "image_urls": [
-                "../images/project5-main",
-                "../images/project5-1",
-                "../images/project5-2",
-                "../images/project5-3"
+                "../static/images/project5-main.png",
+                "../static/images/project5-1.png",
+                "../static/images/project5-2.png",
+                "../static/images/project5-3.png"
             ]
         }
     ]
