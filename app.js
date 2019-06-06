@@ -36,7 +36,7 @@ app.get('/project/:id', (req, res) => {
 
 //Set Error object
 app.use((req, res, next) => {
-    const err = new Error("Not Found: It might not the page you are looking for...");
+    const err = new Error("Page Not Found :(");
     err.status = 404;
     next(err);
 });
@@ -45,11 +45,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     res.status(err.status);
     console.error(err);
-    res.send(`
-        <h1>${err.message}</h1>
-        <h2>${err.status}</h2>
-        <pre>${err.stack}</pre>
-    `);
+    res.render('error', { err });
 });
 
 //Set server to localhost:3000
