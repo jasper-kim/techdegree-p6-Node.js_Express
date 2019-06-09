@@ -443,7 +443,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
+  background: #1E2227;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
@@ -2228,7 +2228,7 @@ h6, .h6 {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: inherit;
+  color: #FFFFFF;
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,
   h2 small, .h2 small,
@@ -5833,5 +5833,5 @@ a.thumbnail {
 }
 
 .portfolio-index .thumbnail:hover {
-  border-color: #DD275A;
+  border-color: #999999;
 }

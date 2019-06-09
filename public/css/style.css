@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: #a8a8a8;
   }
 
 .round{
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #a8a8a8;
 }
 
 .button{
@@ -39,11 +39,11 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: #999999;
 }
 
 a:hover{
-  color: #111;
+  color: #FFFFFF;
 }
 
 .image{
@@ -92,9 +92,16 @@ a:hover{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
    font-size: 13px;
+   background: #333333;
+   padding: 8px;
+   border-radius: 3px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+ }
+
+ .git-repo{
+  color: #61DAFB;
  }
 
 .portfolio-intro{
@@ -142,7 +149,7 @@ a:hover{
 
 .portfolio-project li{
   font-size: 13px;
-  color: #444;
+  color: #FFFFFF;
 }
 
 .portfolio-bio{
