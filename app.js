@@ -48,7 +48,12 @@ app.use((err, req, res, next) => {
     res.render('error', { err });
 });
 
-//Set server to localhost:3000
-app.listen(3000, () => {
-    console.log('The application s running on localhost: 3000!');
+
+//Set server to PORT when running online. If not, it will run on localhost:3000
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port, (port) => {
+    console.log(`The application s running on port: ${port}!`);
 });
