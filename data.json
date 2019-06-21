@@ -73,7 +73,7 @@
         {
             "id": 5,
             "project_name": "Clinic Website",
-            "description": "This is my first freelancing work from an accupuncture clicnic in my local area. I re-built the existing website with a responsive design for all plaforms.",
+            "description": "This is my first freelancing work from an accupuncture clicnic in my local area. I re-design the existing website with a responsive design for all plaforms.",
             "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
             "live_link": "https://healing.netlify.com/",
             "github_link": "https://github.com/jasper-kim/Healing-Acupuncture",
@@ -82,6 +82,20 @@
                 "../static/images/project6-1.png",
                 "../static/images/project6-2.png",
                 "../static/images/project6-3.png"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "React Gallery App",
+            "description": "In this project, I use React to build a web app, displaying a list of photos. the React app requests JSON data to Flickr API and renders components according to the Routes. When a user has a desired topic, the related photos can be retrieved through the search form.",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "live_link": "https://famous-react-gallery.netlify.com/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p7-react_gallery_app",
+            "image_urls": [
+                "../static/images/project7-main.png",
+                "../static/images/project7-1.png",
+                "../static/images/project7-2.png",
+                "../static/images/project7-3.png"
             ]
         }
     ]
