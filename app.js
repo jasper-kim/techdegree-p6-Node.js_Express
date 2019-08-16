@@ -36,9 +36,15 @@ app.get('/project/:id', (req, res) => {
 
 //Set Error object
 app.use((req, res, next) => {
-    const err = new Error("Page Not Found :(");
-    err.status = 404;
-    next(err);
+    // const err = new Error("Page Not Found :(");
+    // err.status = 404;
+    // next(err);
+
+    if(!req.route){
+        console.log('Wrong path!');
+    } else {
+        console.log('Right path!');
+    }
 });
 
 //Set error error handling middleware

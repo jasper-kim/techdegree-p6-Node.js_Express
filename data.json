@@ -97,6 +97,20 @@
                 "../static/images/project7-2.png",
                 "../static/images/project7-3.png"
             ]
+        },
+        {
+            "id": 7,
+            "project_name": "Library Book Manager",
+            "description": "In this project, I created a web application that includes pages to list, add, update, and delete books. I implemented a dynamic website using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize.",
+            "technologies": ["Node.js", "Express", "Pug", "SQLite", "Sequelize"],
+            "live_link": "https://library-manager-v1.herokuapp.com/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p8-sql_library_manager",
+            "image_urls": [
+                "../static/images/project8-main.png",
+                "../static/images/project8-1.png",
+                "../static/images/project8-2.png",
+                "../static/images/project8-3.png"
+            ]
         }
     ]
 }
