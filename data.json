@@ -111,6 +111,20 @@
                 "../static/images/project8-2.png",
                 "../static/images/project8-3.png"
             ]
+        },
+        {
+            "id": 8,
+            "project_name": "School Manager(Full Stack)",
+            "description": "In this project, I use React to create a client for a school database REST API (that you created). This full stack JavaScript application will allow users to view a list of courses and the detail for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses",
+            "technologies": [ "React", "Node.js", "Express", "SQLite", "Sequelize"],
+            "live_link": "https://school-manager.netlify.com/",
+            "github_link": "https://github.com/jasper-kim/techdegree-p10-FullStackApp",
+            "image_urls": [
+                "../static/images/project9-main.png",
+                "../static/images/project9-1.png",
+                "../static/images/project9-2.png",
+                "../static/images/project9-3.png"
+            ]
         }
     ]
 }
