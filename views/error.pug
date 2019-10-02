@@ -1,6 +1,9 @@
 extends layout.pug
 
 block content
-    h1 #{err.message}
-    h2 #{err.status}
-    pre #{err.stack}  
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Home
+    div
+        h1 #{err.message}
+        h2 #{err.status}
+        pre #{err.stack}  
